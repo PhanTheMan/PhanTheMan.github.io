@@ -12,46 +12,6 @@
             crossorigin="anonymous">
     </head>
     <body>
-        
-        <nav class="navbar navbar-expand-sm bg-light fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./images/logo512.png" alt="DP">
-                </a>
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Social
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://github.com/PhanTheMan">Github</a></li>
-                                <li><a class="dropdown-item" href="https://www.kaggle.com/phantheman">Kaggle</a></li>
-                                <li><a class="dropdown-item" href="https://public.tableau.com/app/profile/phantheman">Tableu</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-            
         <div id="navbar-placeholder"></div>
         <div class="profile flex-container" id="intro">
             <header>
@@ -118,18 +78,14 @@
                 crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/8a370adc73.js" crossorigin="anonymous"></script>
         <script src="index.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+                integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+                crossorigin="anonymous"></script>
         <script>
             // Loading Navbar
-            var request = new XMLHttpRequest();
-            request.open('GET', 'navbar.html', true);
-            request.onload = function () {
-                if (request.status >= 200 && request.status < 400) {
-                    var resp = request.responseText;
-                    document.getElementById('#navbar-placeholder').innerHTML = resp;
-                }
-            };
-            request.send();
-            console.log(document.getElementById('#navbar-placeholder'));
+            $(document).ready(function () {
+                $('#navbar-placeholder').load('./navbar.html');
+            });
         </script>
     </body>
 </html>
