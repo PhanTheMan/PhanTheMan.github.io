@@ -1,70 +1,10 @@
-# Getting Started with Create React App
+TLDR at the bottom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome weary internet traveler!
 
-## Available Scripts
+Grab a seat and sit back and relax. As I tell you a tale of how this barren Github became to be. I was a young and foolish child that have discovered technology for the first time. I was determined to learn and use everything even if I was never going to use it again. After learning and earning certification in hardware and networking. I set my sight on more difficult topics such as programming, data analysis, and sysadmin. But my thirst for knowledge grew insatiable and I wanted to learn more! As I keep finding newer technology and topic to learn, a terrible weakness begins to lurk nearby..I noticed the foundation below me is starting to shake. But wait... it's now beginning to crack! In my attempt to learn about self-hosting my own services such as Gitea in replace of Github. I forgot the golden rule when it comes to storage/backups. The 3-2-1 Backup Rule... I didn't realize the importance of that rule till this fateful day. An electrical/fire issue happened near my servers and I lost everything. If only I kept a copy at another location. This would have never happened. But unfortunately for me, I lost all my data. This includes all my previous repositories/projects that I made in Gitea and all other related files on my servers. Now I'm sitting here with you and wondering, what's next?
 
-In the project directory, you can run:
+TLDR
+I didn't follow the 3-2-1 backup rule. I lost the servers where I hosted all my previous projects and repositories. This GitHub profile is currently empty and I'm in the process of rebuilding all that I lost.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This website is made in HTML/JS/CSS/JQuery/Bootstrap. I'll redo this website when I make a final decision on which framework I like best. (Angular/React/Vue)

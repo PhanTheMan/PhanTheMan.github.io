@@ -1,21 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import './index.css';
-import App from './App';
-import Resume from './routes/Resume';
-import reportWebVitals from './reportWebVitals';
+// Random thought. But on home page I can have the profile pictures turn into a color ball
+// Then the colored ball can parallax around the page till the next section/article placement
+// Then change from colored ball to the image again.
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-    </React.StrictMode>
-);
+let profile = document.getElementsByClassName("profile");
+let counter = 0;
+let timeout;
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+window.addEventListener("wheel", e => {
+    e.preventDefault();
+    clearTimeout(timeout);
+    timeout = setTimeout(function () {
+        scrollProfile(e.deltaY);
+    }, 200);
+    
+}, { passive: false })
+
+function scrollProfile(direction) {
+    if (direction < 0) {
+        if (counter > 0) {
+            counter--;
+        }
+        switch (counter) {
+            case 0:
+                profile[counter].scrollIntoView();
+            case 1:
+                profile[counter].scrollIntoView();
+        }
+    } else if (direction > 0) {
+        if (counter < 2) {
+            counter++;
+        }
+        switch (counter) {
+            case 1:
+                profile[counter].scrollIntoView();
+            case 2:
+                profile[counter].scrollIntoView();
+        }
+    }
+    
+}
