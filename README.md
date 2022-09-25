@@ -7,4 +7,4 @@ Grab a seat and sit back and relax. As I tell you a tale of how this barren Gith
 TLDR
 I didn't follow the 3-2-1 backup rule. I lost the servers where I hosted all my previous projects and repositories. This GitHub profile is currently empty and I'm in the process of rebuilding all that I lost.
 
-This website is made in HTML/JS/CSS/Bootstrap. I'll redo this website when I make a final decision on which framework I like best. (Angular/React/Vue)
+This website is made in HTML/JS/CSS/Bootstrap/JQuery. I'll redo this website when I make a final decision on which framework I like best. (Angular/React/Vue)

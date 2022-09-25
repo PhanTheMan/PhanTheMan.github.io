@@ -1,20 +1,28 @@
-/* Nav */
-.navbar-brand > img {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    margin-top: -25px;
+.row {
+    padding-bottom: 20px;
 }
-/* Nav */
-/* Body */
-/* Body */
-/* Footer */
-footer {
-    background-color: transparent;
-    color: white;
-    position: fixed;
-    text-align: center;
-    bottom: 0%;
-    width: 100%;
+#project-list {
+    padding: 95px 20px 20px 20px;
+    background-color: #3B413C;
 }
-/* Footer */
+.data-analytics {
+    background-image: linear-gradient(to bottom right, #ABDCFF, #0396FF);
+    font-style: italic;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.web-development {
+    background-image: linear-gradient(to bottom right, #CE9FFC, #7367F0);
+    font-style: italic;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.general-programming {
+    background-image: linear-gradient(to bottom right, #81FBB8, #28C76F);
+    font-style: italic;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 16px;
+}
